@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+}
+
+.nav-link {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.bg {
+    background: #fff !important;
+}
+
+
+
+
+
+
+/* about us section styling */
+
+.about-us {
+    background: #f6f2ed;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.8;
+    margin-top: 100px;
+
+}
+
+.section {
+    width: 100%;
+    position: relative;
+    padding: 30px 0;
+    height: 100vh;
+
+}
+
+.home__title {
+    text-align: left;
+    margin-top: 125px;
+    margin-left: 100px;
+    font-size: 50px;
+    color: #0b6e45;
+}
+
+.home__subtitle {
+    text-align: left;
+    margin-left: 100px;
+    font-size: 35px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #0b6e45;
+    color: #FFF;
+    padding: 10px 10px;
+    border-radius: .5rem;
+    transition: .3s;
+    margin-left: 100px;
+    text-decoration: none;
+
+}
+
+.button1 {
+
+    display: inline-block;
+    background-color: #0b6e45;
+    color: #FFF;
+    padding: 0px;
+    border-radius: .5rem;
+    transition: .3s;
+    margin-left: 106px;
+    text-decoration: none;
+    margin-top: 21px;
+
+
+}
+
+.btn1 {
+    background-color: #0b6e45 !important;
+}
+
+.button1:hover {
+    color: beige;
+}
+
+.button:hover {
+    color: beige;
+}
+
+.lassi {
+    width: 113px;
+    position: absolute;
+    left: 16%;
+    top: -45%;
+    z-index: -1;
+}
+
+
+/* about us mobile version */
+
+@media only screen and (max-width: 600px) {
+
+    .home__title {
+        text-align: center;
+        margin-top: 125px;
+        margin-left: 0;
+
+        font-size: 42px;
+        color: #0b6e45;
+    }
+
+    .home__subtitle {
+        text-align: center;
+        margin-left: 0px;
+        font-size: 35px;
+    }
+
+    .button1 {
+
+        display: inline-block;
+        background-color: #0b6e45;
+        color: #FFF;
+        padding: 0px;
+        border-radius: .5rem;
+        transition: .3s;
+        margin-left: 0px;
+        text-decoration: none;
+        margin-top: 21px;
+
+
+    }
+
+    .col-md-12.cn {
+        text-align: center;
+    }
+
+    .lassi {
+        width: 33%;
+        position: absolute;
+        left: 33%;
+        top: -45%;
+        z-index: -1;
+    }
+
+
+
+}
+
+
+
+
+@keyframes rotation {
+    100% {
+
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* home img  */
+.home__img {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-style: dashed;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    padding: 20px;
+    animation: rotation 15s linear infinite;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .home__img {
+        margin-top: 110px;
+        margin-bottom: 100px;
+        border-style: dashed;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        padding: 20px;
+        animation: rotation 15s linear infinite;
+
+
+    }
+
+    .sec-2 {
+        width: 70%;
+    }
+
+    .title h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 28px !important;
+        color: #303e4c;
+        line-height: 40px;
+        margin-bottom: 25px;
+        margin-top: 50px;
+    }
+
+    .subtitle h4 {
+        font-size: 22px !important;
+    }
+
+    .section {
+        width: 100%;
+        position: relative;
+        padding: 30px 0;
+        height: 100%;
+
+    }
+
+
+
+    .menu-item-img {
+        margin-bottom: 4em;
+    }
+
+    .glass {
+        left: 18% !important;
+    }
+
+    .wrapper {
+        display: flex;
+        margin-top: 50px !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-map {
+        margin-top: 20px;
+    }
+
+    .brder {
+        border: none !important;
+    }
+
+    .card {
+        width: 18rem !important;
+    }
+
+    .mt {
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        width: 52%;
+        height: auto;
+        margin-right: 3em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animate {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+
+
+
+
+/*     around salad components   */
+
+.tomato img {
+    width: 5.5em;
+}
+
+.brocolli img {
+    width: 6.5em;
+}
+
+.chilly img {
+    width: 3.5em;
+}
+
+.matka-bottom img {
+    width: 5em;
+}
+
+.matka-top img {
+    width: 5em;
+}
+
+.melon img {
+    width: 5em;
+}
+
+.tomato {
+
+    position: absolute;
+    top: 21%;
+    left: -4%;
+    animation: bounce infinite;
+    animation-duration: 1.5s;
+}
+
+
+
+.brocolli {
+
+    position: absolute;
+    top: 21%;
+    right: -5%;
+    animation: bounce infinite;
+    animation-duration: 1.5s;
+}
+
+.chilly {
+
+    position: absolute;
+    top: -3%;
+    left: 43%;
+    animation: bounce infinite;
+    animation-duration: 1.5s;
+}
+
+.melon {
+
+    position: absolute;
+    bottom: 29%;
+    left: -2%;
+    animation: bounce infinite;
+    animation-duration: 1.5s;
+}
+
+.matka-top {
+
+    position: absolute;
+    bottom: 7%;
+    left: 45%;
+    animation: bounce infinite;
+    animation-duration: 1.5s;
+}
+
+.matka-bottom {
+
+    position: absolute;
+    bottom: 28%;
+    right: -3%;
+    animation: bounce infinite;
+    animation-duration: 1.5s;
+}
+
+/* around salad components  end */
+
+
+
+
+/* around salad components   media query */
+
+@media only screen and (max-width: 600px) {
+    .tomato img {
+        width: 4em;
+    }
+
+    .brocolli img {
+        width: 5em;
+    }
+
+    .chilly img {
+        width: 3em;
+    }
+
+    .matka-bottom img {
+        width: 3.5em;
+    }
+
+    .matka-top img {
+        width: 3.5em;
+    }
+
+    .melon img {
+        width: 3.5em;
+    }
+
+    .tomato {
+
+        position: absolute;
+        top: 29%;
+        left: 0%;
+        animation: bounce infinite;
+        animation-duration: 1.5s;
+    }
+
+
+
+    .brocolli {
+
+        position: absolute;
+        top: 27%;
+        right: -4%;
+        animation: bounce infinite;
+        animation-duration: 1.5s;
+    }
+
+    .chilly {
+
+        position: absolute;
+        top: 9%;
+        left: 43%;
+        animation: bounce infinite;
+        animation-duration: 1.5s;
+    }
+
+    .melon {
+
+        position: absolute;
+        bottom: 29%;
+        left: 3%;
+        animation: bounce infinite;
+        animation-duration: 1.5s;
+    }
+
+    .matka-top {
+
+        position: absolute;
+        bottom: 12%;
+        left: 45%;
+        animation: bounce infinite;
+        animation-duration: 1.5s;
+    }
+
+    .matka-bottom {
+
+        position: absolute;
+        bottom: 28%;
+        right: 1%;
+        animation: bounce infinite;
+        animation-duration: 1.5s;
+    }
+
+
+}
+
+/* around salad components  media query end */
+
+
+
+
+@keyframes bounce {
+    100% {
+        transform: translate(-10%);
+
+
+        animation-delay: 0ms;
+    }
+
+}
+
+.nav-item:hover {
+    background: #0b6e45;
+}
+
+.title {
+    text-align: center;
+
+
+}
+
+.title h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    color: #303e4c;
+    line-height: 40px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.subtitle h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: #444444;
+}
+
+.row.hola {
+    margin-top: 50px;
+}
+
+.col-lg-4 {
+    text-align: center;
+}
+
+.img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.about-us .skew-after {
+    background-color: #f6f2ed;
+    top: -30px;
+    bottom: auto;
+
+}
+
+.skew-after {
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    left: 0;
+    transform: skewY(-1.5deg);
+    height: 60px;
+    z-index: 1;
+}
+
+.dhaba-menu {
+    background-color: #10593b !important;
+}
+
+.dhaba-menu .menu-item-img .menu-samosa {
+    width: 45%;
+    position: absolute;
+    z-index: 6;
+
+
+}
+
+.dhaba-menu .menu-item-img .menu-tea {
+    width: 35%;
+    position: absolute;
+    left: 37%;
+    z-index: 4;
+
+}
+
+.dhaba-menu .menu-item-img .menu-coffee {
+    width: 30%;
+
+    position: absolute;
+    left: 65%;
+}
+
+.menu-item-img {
+    position: relative;
+}
+
+.title1 {
+    text-align: left;
+    margin-top: 100px;
+}
+
+.para {
+    line-height: 26px;
+    font-size: 16px;
+}
+
+/* .lassi {
+    width: 150px;
+    position: absolute;
+    left: 12%;
+    top: 54%;
+    z-index: -1;
+} */
+
+.glass {
+    width: 140px;
+    position: absolute;
+    left: 13%;
+    bottom: -18%;
+}
+
+.btn {
+    padding: .375rem .95rem !important;
+}
+
+.why-us {
+    display: flex;
+    background-color: #f6f2ed;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 50px !important;
+}
+
+.card {
+    margin: 10px 20px 10px 20px;
+
+}
+
+.card img {
+    height: 197px;
+    object-fit: cover;
+}
+
+.card:hover {
+    cursor: pointer;
+    opacity: 0.8 !important;
+}
+
+.title2 {
+    text-align: center;
+    margin: 50px 0 0 0 !important;
+    color: #303e4c;
+
+}
+
+.contact {
+    background-color: #10593b !important
+}
+
+.card-body {
+    color: white;
+    background-color: #f58634 !important
+}
+
+
+.form-control {
+    background-color: #10593b !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 2px solid #fff !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #fff !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.drum {
+    position: relative;
+}
+
+
+
+
+
+.footer {
+    height: 70vh;
+}
+
+.chilly-img img {
+    margin-left: 20px;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.find {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-capitalize {
+    text-transform: capitalize !important;
+    font-size: 18px;
+
+}
+
+.input {
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.brder {
+    border-right: 4px solid orange;
+}
+
+.sub-footer {
+    background: #444444;
+    padding: 5px;
+    color: #fff;
+
+}
+
+.sb h5 {
+    font-size: 14px;
+    line-height: 24px;
+}
